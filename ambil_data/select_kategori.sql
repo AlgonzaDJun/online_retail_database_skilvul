@@ -1,0 +1,3 @@
+SELECT * FROM kategori;
+
+SHOW TABLES;
