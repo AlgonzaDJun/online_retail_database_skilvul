@@ -1,0 +1,23 @@
+-- Active: 1699343470639@@127.0.0.1@3306@tes
+
+CREATE DATABASE online_retail_database;
+
+USE online_retail_database;
+
+show databases;
+
+SHOW TABLES;
+
+-- buat table users
+
+CREATE TABLE
+    user (
+        id_user INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        nama VARCHAR(255) NOT NULL,
+        email varchar(255) NOT NULL UNIQUE,
+        password varchar(255) NOT NULL,
+        alamat varchar(255) NOT NULL,
+        no_telpon int NOT NULL
+    )
+
+DESC user;
